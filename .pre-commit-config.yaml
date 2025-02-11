@@ -18,6 +18,7 @@ repos:
   hooks:
     - id: markdownlint
       args: [ --fix, --disable, MD013 ]
-# - repo: https://github.com/emersonknapp/ament_xmllint
-#   hooks:
-#     - id: ament_xmllint
+- repo: https://github.com/emersonknapp/ament_xmllint
+  rev: main
+  hooks:
+    - id: ament_xmllint
