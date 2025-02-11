@@ -1,0 +1,7 @@
+---
+- id: ament-xmllint
+  name: Check XML files
+  description: Validates against <?xml-model?> schema statements
+  entry: ament_xmllint
+  language: python
+  types: [xml]
