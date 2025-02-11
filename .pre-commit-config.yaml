@@ -1,0 +1,23 @@
+---
+repos:
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v5.0.0
+  hooks:
+    - id: check-ast
+    - id: check-case-conflict
+    - id: check-merge-conflict
+    - id: check-shebang-scripts-are-executable
+    - id: check-symlinks
+    - id: check-xml
+    - id: check-yaml
+    - id: end-of-file-fixer
+    - id: mixed-line-ending
+    - id: trailing-whitespace
+- repo: https://github.com/igorshubovych/markdownlint-cli
+  rev: v0.30.0
+  hooks:
+    - id: markdownlint
+      args: [ --fix, --disable, MD013 ]
+# - repo: https://github.com/emersonknapp/ament_xmllint
+#   hooks:
+#     - id: ament_xmllint

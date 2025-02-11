@@ -1,5 +1,5 @@
 ---
-- id: ament-xmllint
+- id: ament_xmllint
   name: Check XML files
   description: Validates against <?xml-model?> schema statements
   entry: ament_xmllint
