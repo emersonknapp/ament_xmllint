@@ -5,7 +5,7 @@
 This repository contains only:
 
 - <https://github.com/ament/ament_lint/tree/rolling/ament_xmllint> directory pulled to the top level
-- <./.pre-commit-hooks.yaml> - to expose this linter as a [pre-commit](https://pre-commit.com) hook
+- [.pre-commit-hooks.yaml](.pre-commit-hooks.yaml) - to expose this linter as a [pre-commit](https://pre-commit.com) hook
 
 ## Modifications to base package
 
