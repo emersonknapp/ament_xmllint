@@ -11,6 +11,17 @@ This repository contains only:
 
 None, currently.
 
+## Usage
+
+Add to your `.pre-commit-config.yaml`
+
+```yaml
+- repo: https://github.com/emersonknapp/ament_xmllint
+  rev: v0.1
+  hooks:
+    - id: ament_xmllint
+```
+
 ## Justification
 
 This is a useful standalone linter because it allows for automatic detection and validation against XSD schemata via the `<?xml-model?>` prolog element.
